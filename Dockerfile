@@ -15,7 +15,7 @@ RUN bundle config --global frozen 1 \
 
 FROM ruby:2.5-alpine
 LABEL maintainer="Nate McCurdy, @natemccurdy"
-LABEL octocatalog-diff-version="1.6.0"
+LABEL octocatalog-diff-version="2.0.0"
 
 COPY --from=builder /usr/local/bundle/ /usr/local/bundle/
 
