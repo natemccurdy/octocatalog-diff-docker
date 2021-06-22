@@ -8,9 +8,9 @@ GEM
       multi_xml (>= 0.5.2)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2020.1104)
+    mime-types-data (3.2021.0225)
     multi_xml (0.6.0)
-    octocatalog-diff (2.0.0)
+    octocatalog-diff (2.1.0)
       diffy (>= 3.1.0)
       hashdiff (>= 0.3.0)
       httparty (>= 0.11.0)
@@ -23,7 +23,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  octocatalog-diff (= 2.0.0)
+  octocatalog-diff (= 2.1.0)
 
 BUNDLED WITH
    1.17.3
