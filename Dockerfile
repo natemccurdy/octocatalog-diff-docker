@@ -10,7 +10,7 @@ RUN bundle config --global frozen 1 \
   cmake=3.18.4-r1 \
   gcc=10.2.1_pre1-r3 \
   g++=10.2.1_pre1-r3 \
-  openssl-dev=1.1.1k-r0 \
+  openssl-dev=1.1.1l-r0 \
   && bundle install
 
 FROM ruby:2.5.9-alpine
